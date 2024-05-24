@@ -2,7 +2,6 @@ const Joi = require('joi');
 const ApiError = require("../util/ApiError.js");
 const Property = require("../models/property.model.js");
 const Ad = require("../models/ad.model.js");
-const bcrypt = require('bcrypt');
 const { PROPERTY_TYPES } = require("../util/constant.js");
 
 exports.addPropertyAndAdValidation = async (req, res, next) => {
