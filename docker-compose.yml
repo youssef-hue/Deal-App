@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:5002"
+    depends_on:
+      - mongodb
+    environment:
+      - NODE_ENV=development
+    env_file:
+      - ./config/dev.env
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+  mongo-seed:
+    image: mongo:latest
+    command: mongoimport --host mongodb --db deal --collection ads --type json --file /backup/deals.ads.json --jsonArray && \
+             mongoimport --host mongodb --db deal --collection properties --type json --file /backup/deals.properties.json --jsonArray && \
+             mongoimport --host mongodb --db deal --collection users --type json --file /backup/deals.users.json --jsonArray
+    volumes:
+      - ./backup:/backup
+    depends_on:
+      - mongodb

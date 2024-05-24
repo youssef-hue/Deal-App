@@ -1,0 +1,570 @@
+[{
+  "_id": {
+    "$oid": "664f85f6f5540cacdc513458"
+  },
+  "area": "Maadi",
+  "price": 100,
+  "city": "CAIRO",
+  "district": "New Maadi",
+  "description": "ya mosahel",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "664e4d2639f528c4578bc2f5"
+  },
+  "createdAt": {
+    "$date": "2024-05-23T18:07:50.730Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-23T18:07:50.730Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664f8729f5540cacdc513462"
+  },
+  "area": "maadi",
+  "price": 220,
+  "city": "CAIRO",
+  "district": "New Maadi",
+  "description": "ya mosahel",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "664e50adc7f35119c029422e"
+  },
+  "createdAt": {
+    "$date": "2024-05-23T18:12:57.979Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-23T19:00:23.401Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505ad63cdabeda82c90d19"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505ad63cdabeda82c90d15"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:16:06.772Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:16:06.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:16:06.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505c8350320f9350b127d3"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505c8350320f9350b127cf"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:23:15.206Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:23:15.207Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:23:15.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505d7875285caac7edea07"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505d7875285caac7edea03"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:27:20.289Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:27:20.289Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:27:20.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505db756dc31f421bb5816"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505db756dc31f421bb5812"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:28:23.557Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:28:23.557Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:28:23.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505e06cb6e58b80bd377e4"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505e06cb6e58b80bd377e0"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:29:42.671Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:29:42.671Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:29:42.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505e5308dfddf1529ac122"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505e5308dfddf1529ac11e"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:30:59.660Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:30:59.661Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:30:59.661Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505ebfdc5508d334cae0f3"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505ebfdc5508d334cae0ef"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:32:47.258Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:32:47.258Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:32:47.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505ef806eb6c10bd43d4e7"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505ef806eb6c10bd43d4e3"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:33:44.050Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:33:44.050Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:33:44.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505fcb86858b11f5276110"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66505fcb86858b11f527610c"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:37:15.400Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:37:15.400Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:37:15.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506026c0bdbb882e56b79c"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66506026c0bdbb882e56b798"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:38:46.977Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:38:46.977Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:38:46.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650617b1f7a4c73a73e9b63"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "6650617b1f7a4c73a73e9b5f"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:44:27.373Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:44:27.373Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:44:27.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506221ad1b8793736a594a"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66506221ad1b8793736a5946"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:47:13.520Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:47:13.521Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:47:13.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506301aa67f864555901a1"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66506301aa67f8645559019d"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:50:57.316Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:50:57.316Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:50:57.316Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506372c27d6440b20919d0"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66506372c27d6440b20919cc"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:52:50.679Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:52:50.679Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:52:50.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665063fa0230ae717d730591"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "665063fa0230ae717d73058d"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:55:06.925Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:55:06.925Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:55:06.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650641650d1047f543e6c6c"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "6650641650d1047f543e6c68"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:55:34.879Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:55:34.879Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:55:34.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665064db5ecfe21e43da9f21"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "665064db5ecfe21e43da9f1d"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T09:58:51.620Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:58:51.621Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:58:51.621Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665065d976ee6fd5fc699c1f"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "665065d976ee6fd5fc699c1b"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T10:03:05.936Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:03:05.936Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:03:05.936Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650666f563ce75b481aef5b"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "6650666f563ce75b481aef57"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T10:05:35.213Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:05:35.213Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:05:35.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650672ffde967b9ae4850f4"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "6650672ffde967b9ae4850f0"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T10:08:47.098Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:08:47.099Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:08:47.099Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665069a2e9c285fb8b7a8b7a"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "665069a2e9c285fb8b7a8b76"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T10:19:14.928Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:19:14.928Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:19:14.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506b1ad54a133bfad20e83"
+  },
+  "area": "Area 2",
+  "price": 2000,
+  "city": "City 2",
+  "district": "District 2",
+  "description": "Description 2",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "66506b1ad54a133bfad20e7f"
+  },
+  "refreshedAt": {
+    "$date": "2024-05-24T10:25:30.087Z"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:25:30.087Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:25:30.087Z"
+  },
+  "__v": 0
+}]

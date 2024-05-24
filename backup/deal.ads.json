@@ -1,0 +1,483 @@
+[{
+  "_id": {
+    "$oid": "664f908010f91bb5753814be"
+  },
+  "area": "Maadi",
+  "price": 200,
+  "city": "CAIRO",
+  "district": "New Maadi",
+  "description": "ya mosahel",
+  "propertyType": "VILLA",
+  "user": {
+    "$oid": "664e50c2c7f35119c0294231"
+  },
+  "createdAt": {
+    "$date": "2024-05-23T18:52:48.596Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-23T19:02:11.795Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505ad63cdabeda82c90d17"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505ad63cdabeda82c90d13"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:16:06.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:16:06.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505c8350320f9350b127d1"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505c8350320f9350b127cd"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:23:15.204Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:23:15.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505d7875285caac7edea05"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505d7875285caac7edea01"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:27:20.287Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:27:20.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505db756dc31f421bb5814"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505db756dc31f421bb5810"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:28:23.556Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:28:23.556Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505e06cb6e58b80bd377e2"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505e06cb6e58b80bd377de"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:29:42.670Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:29:42.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505e5308dfddf1529ac120"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505e5308dfddf1529ac11c"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:30:59.659Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:30:59.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505ebfdc5508d334cae0f1"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505ebfdc5508d334cae0ed"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:32:47.256Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:32:47.256Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505ef806eb6c10bd43d4e5"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505ef806eb6c10bd43d4e1"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:33:44.048Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:33:44.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66505fcb86858b11f527610e"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66505fcb86858b11f527610a"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:37:15.398Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:37:15.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506026c0bdbb882e56b79a"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66506026c0bdbb882e56b796"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:38:46.975Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:38:46.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650617b1f7a4c73a73e9b61"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "6650617b1f7a4c73a73e9b5d"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:44:27.371Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:44:27.371Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506221ad1b8793736a5948"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66506221ad1b8793736a5944"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:47:13.519Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:47:13.519Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506301aa67f8645559019f"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66506301aa67f8645559019b"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:50:57.314Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:50:57.314Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506372c27d6440b20919ce"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66506372c27d6440b20919ca"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:52:50.677Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:52:50.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665063fa0230ae717d73058f"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "665063fa0230ae717d73058b"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:55:06.923Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:55:06.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650641650d1047f543e6c6a"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "6650641650d1047f543e6c66"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:55:34.877Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:55:34.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665064db5ecfe21e43da9f1f"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "665064db5ecfe21e43da9f1b"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T09:58:51.619Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T09:58:51.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665065d976ee6fd5fc699c1d"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "665065d976ee6fd5fc699c19"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:03:05.934Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:03:05.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650666f563ce75b481aef59"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "6650666f563ce75b481aef55"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:05:35.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:05:35.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650672ffde967b9ae4850f2"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "6650672ffde967b9ae4850ee"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:08:47.096Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:08:47.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "665069a2e9c285fb8b7a8b78"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "665069a2e9c285fb8b7a8b74"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:19:14.926Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:19:14.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506b1ad54a133bfad20e81"
+  },
+  "area": "Area 1",
+  "price": 1000,
+  "city": "City 1",
+  "district": "District 1",
+  "description": "Description 1",
+  "propertyType": "HOUSE",
+  "user": {
+    "$oid": "66506b1ad54a133bfad20e7d"
+  },
+  "createdAt": {
+    "$date": "2024-05-24T10:25:30.085Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:25:30.085Z"
+  },
+  "__v": 0
+}]

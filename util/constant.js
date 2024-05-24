@@ -1,0 +1,2 @@
+exports.USER_TYPES = ["ADMIN", "CLIENT", "AGENT"]
+exports.PROPERTY_TYPES = ["VILLA", "HOUSE", "LAND", "APARTMENT"]

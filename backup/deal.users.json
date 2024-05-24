@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "66506b19d54a133bfad20e7b"
+  },
+  "name": "Admin User",
+  "phone": "01234227895",
+  "password": "$2b$10$5gNmvDv18rJFk2miXH9RLeD64IFfO95ERJOVeFZ8cQcIk6AA7f1ra",
+  "role": "ADMIN",
+  "status": "ACTIVE",
+  "createdAt": {
+    "$date": "2024-05-24T10:25:29.947Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:25:29.947Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506b1ad54a133bfad20e7d"
+  },
+  "name": "Agent User",
+  "phone": "09822243215",
+  "password": "$2b$10$3tlYn7Ngl257tLL7wFJgQedyqS4fu/jSDluTeEnAutxcuHjC6zqpy",
+  "role": "AGENT",
+  "status": "ACTIVE",
+  "createdAt": {
+    "$date": "2024-05-24T10:25:30.019Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:25:30.019Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66506b1ad54a133bfad20e7f"
+  },
+  "name": "Client User",
+  "phone": "01122234455",
+  "password": "$2b$10$wQ2w1w3g0d2o0SsjrH19Q.Kppaj9Z6rOLsKn/Yz.MsJsFJjonP6W6",
+  "role": "CLIENT",
+  "status": "ACTIVE",
+  "createdAt": {
+    "$date": "2024-05-24T10:25:30.083Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-24T10:25:30.083Z"
+  },
+  "__v": 0
+}]
