@@ -1,0 +1,1657 @@
+{
+	"info": {
+		"_postman_id": "7090d2ca-7e99-4a9b-89c4-08df3c156e4b",
+		"name": "DEAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31988543",
+		"_collection_link": "https://cloudy-satellite-408306.postman.co/workspace/Team-Workspace~ca89354c-c7c4-4ea9-877e-99de6b4d429b/collection/31988543-7090d2ca-7e99-4a9b-89c4-08df3c156e4b?action=share&source=collection_link&creator=31988543"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "User Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phone\":\"01234227895\",\r\n    \"password\":\"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5002/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "User Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"phone\":\"01258858805\",\r\n    \"password\":\"012346\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5002/user/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "388"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"184-1otxnXVUshNlGZOiy8p5Hf6W8+U\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 22 May 2024 19:54:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"Authorization\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNGQyNjM5ZjUyOGM0NTc4YmMyZjUiLCJpYXQiOjE3MTY0MDc2NDd9.95suTzX_3PZm6mHmIxrQ39dpSY5DMUScWBZwUwpoZoI\",\n    \"data\": {\n        \"_id\": \"664e4d2639f528c4578bc2f5\",\n        \"name\": \"youssef\",\n        \"phone\": \"01258858805\",\n        \"role\": \"ADMIN\",\n        \"status\": \"ACTIVE\",\n        \"createdAt\": \"2024-05-22T19:53:10.246Z\",\n        \"updatedAt\": \"2024-05-22T19:53:10.246Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "add User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"7amada2\",\r\n    \"phone\":\"01258858856\",\r\n    \"password\":\"012346\",\r\n    \"role\":\"ADMIN\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5002/user/addUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"user",
+								"addUser"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "add User",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"youssef\",\r\n    \"phone\":\"01258858805\",\r\n    \"password\":\"012346\",\r\n    \"role\":\"ADMIN\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5002/user/addUser",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"user",
+										"addUser"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"d8-YzDBOkGZL+LyS4ovSf5+KghRjyc\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 22 May 2024 19:53:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"name\": \"youssef\",\n        \"phone\": \"01258858805\",\n        \"role\": \"ADMIN\",\n        \"status\": \"ACTIVE\",\n        \"_id\": \"664e4d2639f528c4578bc2f5\",\n        \"createdAt\": \"2024-05-22T19:53:10.246Z\",\n        \"updatedAt\": \"2024-05-22T19:53:10.246Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "admin Block User",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNGQyNjM5ZjUyOGM0NTc4YmMyZjUiLCJpYXQiOjE3MTY0MDkwMDF9.yxDJhEoI7G0ghbTCFX2fSnZKmtiqd56dt2kneG2hnW0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/user/adminBlockUser/664e50adc7f35119c029422e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"user",
+								"adminBlockUser",
+								"664e50adc7f35119c029422e"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "admin Block User",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNGQyNjM5ZjUyOGM0NTc4YmMyZjUiLCJpYXQiOjE3MTY0MDkwMDF9.yxDJhEoI7G0ghbTCFX2fSnZKmtiqd56dt2kneG2hnW0",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/user/adminBlockUser/664e50c2c7f35119c0294231",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"user",
+										"adminBlockUser",
+										"664e50c2c7f35119c0294231"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "306"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"132-X02vy6e1sufbzyxxFi18mh8dRkU\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 22 May 2024 20:17:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": false,\n    \"message\": \"Admin Can't Block Admin\",\n    \"stack\": \"Error: Admin Can't Block Admin\\n    at exports.adminBlockUser (C:\\\\Users\\\\youssef yasser\\\\Desktop\\\\Deal--Back-End--test\\\\controllers\\\\user.controller.js:17:25)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\"\n}"
+						}
+					]
+				},
+				{
+					"name": "get all User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNGQyNjM5ZjUyOGM0NTc4YmMyZjUiLCJpYXQiOjE3MTY0ODkzMjZ9.lW6e9LBsFhUbxmlsb6oO2sg4DPL6M_jWjdLHsL-_fyI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/user/getallUser?page=1&limit=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"user",
+								"getallUser"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get all User",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNGQyNjM5ZjUyOGM0NTc4YmMyZjUiLCJpYXQiOjE3MTY0ODkzMjZ9.lW6e9LBsFhUbxmlsb6oO2sg4DPL6M_jWjdLHsL-_fyI",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/user/getallUser",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"user",
+										"getallUser"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "658"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"292-txonFFoUxjNBZkj9B5LDa8VqRFs\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:35:50 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"results\": 3,\n    \"paginationResult\": {\n        \"limit\": 10,\n        \"numberOfPages\": 1,\n        \"currentPage\": 1\n    },\n    \"data\": [\n        {\n            \"_id\": \"664e50adc7f35119c029422e\",\n            \"name\": \"7amada\",\n            \"phone\": \"01258858853\",\n            \"role\": \"CLIENT\",\n            \"status\": \"ACTIVE\",\n            \"createdAt\": \"2024-05-22T20:08:13.521Z\",\n            \"updatedAt\": \"2024-05-23T18:12:29.695Z\"\n        },\n        {\n            \"_id\": \"664e50c2c7f35119c0294231\",\n            \"name\": \"7amada2\",\n            \"phone\": \"01258858856\",\n            \"role\": \"AGENT\",\n            \"status\": \"ACTIVE\",\n            \"createdAt\": \"2024-05-22T20:08:34.949Z\",\n            \"updatedAt\": \"2024-05-22T20:08:34.949Z\"\n        },\n        {\n            \"_id\": \"664e4d2639f528c4578bc2f5\",\n            \"name\": \"youssef\",\n            \"phone\": \"01258858805\",\n            \"role\": \"ADMIN\",\n            \"status\": \"ACTIVE\",\n            \"createdAt\": \"2024-05-22T19:53:10.246Z\",\n            \"updatedAt\": \"2024-05-22T19:53:10.246Z\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "get One User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNGQyNjM5ZjUyOGM0NTc4YmMyZjUiLCJpYXQiOjE3MTY0ODkzMjZ9.lW6e9LBsFhUbxmlsb6oO2sg4DPL6M_jWjdLHsL-_fyI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/user/getOneUser/664e50adc7f35119c029422e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"user",
+								"getOneUser",
+								"664e50adc7f35119c029422e"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get One User",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNGQyNjM5ZjUyOGM0NTc4YmMyZjUiLCJpYXQiOjE3MTY0ODkzMjZ9.lW6e9LBsFhUbxmlsb6oO2sg4DPL6M_jWjdLHsL-_fyI",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/user/getOneUser/664e50adc7f35119c029422e",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"user",
+										"getOneUser",
+										"664e50adc7f35119c029422e"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "208"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"d0-Maw9BucjDLLZCcQ+hN901kEAhq0\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:39:15 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"_id\": \"664e50adc7f35119c029422e\",\n        \"name\": \"7amada\",\n        \"phone\": \"01258858853\",\n        \"role\": \"CLIENT\",\n        \"status\": \"ACTIVE\",\n        \"createdAt\": \"2024-05-22T20:08:13.521Z\",\n        \"updatedAt\": \"2024-05-23T18:12:29.695Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "admin User Stats",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjUwNmIxOWQ1NGExMzNiZmFkMjBlN2IiLCJpYXQiOjE3MTY1NDYzMjl9.DJ6PJ6AW787B7rSrFESM_EOAV9d0MJJeOGhYKQwYu8Q",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/user/adminUserStats?page=2&limit=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"user",
+								"adminUserStats"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								},
+								{
+									"key": "limit",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "admin User Stats",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjUwNjlhMmU5YzI4NWZiOGI3YThiNzIiLCJpYXQiOjE3MTY1NDU5NTR9.PHGHBmh7bJC5YhNNB3CapLJTV9GvWOF6uLIwQ2FB4Ig",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/user/adminUserStats",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"user",
+										"adminUserStats"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "424"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1a8-kALlU+iflVhMR4QwACV4JWNuaVs\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 May 2024 10:24:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"name\": \"Admin User\",\n            \"role\": \"ADMIN\",\n            \"adsCount\": 0,\n            \"totalAdsAmount\": 0,\n            \"requestsCount\": 0,\n            \"totalRequestsAmount\": 0\n        },\n        {\n            \"name\": \"Agent User\",\n            \"role\": \"AGENT\",\n            \"adsCount\": 1,\n            \"totalAdsAmount\": 1000,\n            \"requestsCount\": 0,\n            \"totalRequestsAmount\": 0\n        },\n        {\n            \"name\": \"Client User\",\n            \"role\": \"CLIENT\",\n            \"adsCount\": 0,\n            \"totalAdsAmount\": 0,\n            \"requestsCount\": 1,\n            \"totalRequestsAmount\": 2000\n        }\n    ],\n    \"page\": 1,\n    \"limit\": 3,\n    \"total\": 3,\n    \"hasNextPage\": false,\n    \"hasPreviousPage\": false\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Property",
+			"item": [
+				{
+					"name": "Add Property",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":100,\r\n    \"city\":\"CAIRO\" ,\r\n    \"district\":\"New Maadi\",\r\n    \"description\":\"ya mosahel\" ,\r\n    \"propertyType\":\"VILLA\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5002/property/addProperty",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"property",
+								"addProperty"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Add Property",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBhZGM3ZjM1MTE5YzAyOTQyMmUiLCJpYXQiOjE3MTY0ODc5NTV9.ZYg7it7NR3EmuhEjQEWIFf5QphUPPDtghXPDy0ZhTFU",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":100,\r\n    \"city\":\"CAIRO\" ,\r\n    \"district\":\"New Maadi\",\r\n    \"description\":\"ya mosahel\" ,\r\n    \"propertyType\":\"VILLA\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5002/property/addProperty",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"property",
+										"addProperty"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "293"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"125-hXjZF19Y+lxtZ9DwPHK1RU3ppNo\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:12:57 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"area\": \"Maadi\",\n        \"price\": 100,\n        \"city\": \"CAIRO\",\n        \"district\": \"New Maadi\",\n        \"description\": \"ya mosahel\",\n        \"propertyType\": \"VILLA\",\n        \"user\": \"664e50adc7f35119c029422e\",\n        \"_id\": \"664f8729f5540cacdc513462\",\n        \"createdAt\": \"2024-05-23T18:12:57.979Z\",\n        \"updatedAt\": \"2024-05-23T18:12:57.979Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "update Property",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBhZGM3ZjM1MTE5YzAyOTQyMmUiLCJpYXQiOjE3MTY0ODkxMDl9.0bk6t-yanLn67BI6e6FoNYtM1rBT8IpcoeH1CDih8XI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":200,\r\n    \"description\":\"ya mosahel\" \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5002/property/updateProperty/664f8729f5540cacdc513462",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"property",
+								"updateProperty",
+								"664f8729f5540cacdc513462"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update Property",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBhZGM3ZjM1MTE5YzAyOTQyMmUiLCJpYXQiOjE3MTY0ODkxMDl9.0bk6t-yanLn67BI6e6FoNYtM1rBT8IpcoeH1CDih8XI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":200,\r\n    \"description\":\"ya mosahel\" \r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5002/property/updateProperty/664f8729f5540cacdc513462",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"property",
+										"updateProperty",
+										"664f8729f5540cacdc513462"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "293"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"125-wLfbGOrnxzAwLoBGCRsHnl6SeHo\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:31:55 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"_id\": \"664f8729f5540cacdc513462\",\n        \"area\": \"Maadi\",\n        \"price\": 200,\n        \"city\": \"CAIRO\",\n        \"district\": \"New Maadi\",\n        \"description\": \"ya mosahel\",\n        \"propertyType\": \"VILLA\",\n        \"user\": \"664e50adc7f35119c029422e\",\n        \"createdAt\": \"2024-05-23T18:12:57.979Z\",\n        \"updatedAt\": \"2024-05-23T18:31:55.333Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "get One Property",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/property/getOneProperty/664f85f6f5540cacdc513458",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"property",
+								"getOneProperty",
+								"664f85f6f5540cacdc513458"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get One Property",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/property/getOneProperty/664f85f6f5540cacdc513458",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"property",
+										"getOneProperty",
+										"664f85f6f5540cacdc513458"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "451"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1c3-daCLg4oihF7O8BRrtpfvrOsA96g\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:44:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"_id\": \"664f85f6f5540cacdc513458\",\n        \"area\": \"Maadi\",\n        \"price\": 100,\n        \"city\": \"CAIRO\",\n        \"district\": \"New Maadi\",\n        \"description\": \"ya mosahel\",\n        \"propertyType\": \"VILLA\",\n        \"user\": {\n            \"_id\": \"664e4d2639f528c4578bc2f5\",\n            \"name\": \"youssef\",\n            \"phone\": \"01258858805\",\n            \"role\": \"ADMIN\",\n            \"status\": \"ACTIVE\",\n            \"createdAt\": \"2024-05-22T19:53:10.246Z\",\n            \"updatedAt\": \"2024-05-22T19:53:10.246Z\",\n            \"__v\": 0\n        },\n        \"createdAt\": \"2024-05-23T18:07:50.730Z\",\n        \"updatedAt\": \"2024-05-23T18:07:50.730Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "get All Property",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/property/getAllProperty?page=1&limit=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"property",
+								"getAllProperty"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:5002/property/getAllProperty",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/property/getAllProperty",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"property",
+										"getAllProperty"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "959"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"3bf-h7XNgeioNxKXG8vMUr/d9yCg/3w\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:46:19 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"results\": 2,\n    \"paginationResult\": {\n        \"limit\": 10,\n        \"numberOfPages\": 1,\n        \"currentPage\": 1\n    },\n    \"data\": [\n        {\n            \"_id\": \"664f8729f5540cacdc513462\",\n            \"area\": \"Maadi\",\n            \"price\": 200,\n            \"city\": \"CAIRO\",\n            \"district\": \"New Maadi\",\n            \"description\": \"ya mosahel\",\n            \"propertyType\": \"VILLA\",\n            \"user\": {\n                \"_id\": \"664e50adc7f35119c029422e\",\n                \"name\": \"7amada\",\n                \"phone\": \"01258858853\",\n                \"role\": \"CLIENT\",\n                \"status\": \"ACTIVE\",\n                \"createdAt\": \"2024-05-22T20:08:13.521Z\",\n                \"updatedAt\": \"2024-05-23T18:12:29.695Z\",\n                \"__v\": 0\n            },\n            \"createdAt\": \"2024-05-23T18:12:57.979Z\",\n            \"updatedAt\": \"2024-05-23T18:31:55.333Z\"\n        },\n        {\n            \"_id\": \"664f85f6f5540cacdc513458\",\n            \"area\": \"Maadi\",\n            \"price\": 100,\n            \"city\": \"CAIRO\",\n            \"district\": \"New Maadi\",\n            \"description\": \"ya mosahel\",\n            \"propertyType\": \"VILLA\",\n            \"user\": {\n                \"_id\": \"664e4d2639f528c4578bc2f5\",\n                \"name\": \"youssef\",\n                \"phone\": \"01258858805\",\n                \"role\": \"ADMIN\",\n                \"status\": \"ACTIVE\",\n                \"createdAt\": \"2024-05-22T19:53:10.246Z\",\n                \"updatedAt\": \"2024-05-22T19:53:10.246Z\",\n                \"__v\": 0\n            },\n            \"createdAt\": \"2024-05-23T18:07:50.730Z\",\n            \"updatedAt\": \"2024-05-23T18:07:50.730Z\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "AD",
+			"item": [
+				{
+					"name": "Add AD",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0OTAyOTV9.Vsigbf4olayuxO7BFvJTSLjyggxcRPeYIIuBa68fxCw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":100,\r\n    \"city\":\"CAIRO\" ,\r\n    \"district\":\"New Maadi\",\r\n    \"description\":\"ya mosahel\" ,\r\n    \"propertyType\":\"VILLA\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5002/ad/addAd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"ad",
+								"addAd"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Add AD",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0OTAyOTV9.Vsigbf4olayuxO7BFvJTSLjyggxcRPeYIIuBa68fxCw",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":100,\r\n    \"city\":\"CAIRO\" ,\r\n    \"district\":\"New Maadi\",\r\n    \"description\":\"ya mosahel\" ,\r\n    \"propertyType\":\"VILLA\"\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5002/ad/addAd",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"ad",
+										"addAd"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "293"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"125-TM8mPxajMI8AUeylowlpiuYYxYI\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:52:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"area\": \"Maadi\",\n        \"price\": 100,\n        \"city\": \"CAIRO\",\n        \"district\": \"New Maadi\",\n        \"description\": \"ya mosahel\",\n        \"propertyType\": \"VILLA\",\n        \"user\": \"664e50c2c7f35119c0294231\",\n        \"_id\": \"664f908010f91bb5753814be\",\n        \"createdAt\": \"2024-05-23T18:52:48.596Z\",\n        \"updatedAt\": \"2024-05-23T18:52:48.596Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "update AD",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0OTA4NDB9.vbrcQmaL4Y0DP2r-SlldxvzKi6phJmiSHyK7_e0ttsI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":200,\r\n    \"description\":\"ya mosahel\" \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5002/ad/updateAd/664f908010f91bb5753814be",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"ad",
+								"updateAd",
+								"664f908010f91bb5753814be"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update AD",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0OTA4NDB9.vbrcQmaL4Y0DP2r-SlldxvzKi6phJmiSHyK7_e0ttsI",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"area\": \"Maadi\",\r\n    \"price\":200,\r\n    \"description\":\"ya mosahel\" \r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5002/ad/updateAd/664f908010f91bb5753814be",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"ad",
+										"updateAd",
+										"664f908010f91bb5753814be"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "293"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"125-S4/ChY/bPFPB+b7vzEDhpxusdA4\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 19:02:11 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"_id\": \"664f908010f91bb5753814be\",\n        \"area\": \"Maadi\",\n        \"price\": 200,\n        \"city\": \"CAIRO\",\n        \"district\": \"New Maadi\",\n        \"description\": \"ya mosahel\",\n        \"propertyType\": \"VILLA\",\n        \"user\": \"664e50c2c7f35119c0294231\",\n        \"createdAt\": \"2024-05-23T18:52:48.596Z\",\n        \"updatedAt\": \"2024-05-23T19:02:11.795Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "get One  AD",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/ad/getOneAd/664f908010f91bb5753814be",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"ad",
+								"getOneAd",
+								"664f908010f91bb5753814be"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get One  AD",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/ad/getOneAd/664f908010f91bb5753814be",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"ad",
+										"getOneAd",
+										"664f908010f91bb5753814be"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "451"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1c3-v6i1M/EbNACXO6uaRLoKtoWZxus\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 19:02:23 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"_id\": \"664f908010f91bb5753814be\",\n        \"area\": \"Maadi\",\n        \"price\": 200,\n        \"city\": \"CAIRO\",\n        \"district\": \"New Maadi\",\n        \"description\": \"ya mosahel\",\n        \"propertyType\": \"VILLA\",\n        \"user\": {\n            \"_id\": \"664e50c2c7f35119c0294231\",\n            \"name\": \"7amada2\",\n            \"phone\": \"01258858856\",\n            \"role\": \"AGENT\",\n            \"status\": \"ACTIVE\",\n            \"createdAt\": \"2024-05-22T20:08:34.949Z\",\n            \"updatedAt\": \"2024-05-22T20:08:34.949Z\",\n            \"__v\": 0\n        },\n        \"createdAt\": \"2024-05-23T18:52:48.596Z\",\n        \"updatedAt\": \"2024-05-23T19:02:11.795Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "get All AD",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjUwNmIxOWQ1NGExMzNiZmFkMjBlN2IiLCJpYXQiOjE3MTY1NDYzMjl9.DJ6PJ6AW787B7rSrFESM_EOAV9d0MJJeOGhYKQwYu8Q",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/ad/getAllAd?page=1&limit=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"ad",
+								"getAllAd"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "http://localhost:5002/property/getAllProperty",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/property/getAllProperty",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"property",
+										"getAllProperty"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "959"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"3bf-h7XNgeioNxKXG8vMUr/d9yCg/3w\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 18:46:19 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"results\": 2,\n    \"paginationResult\": {\n        \"limit\": 10,\n        \"numberOfPages\": 1,\n        \"currentPage\": 1\n    },\n    \"data\": [\n        {\n            \"_id\": \"664f8729f5540cacdc513462\",\n            \"area\": \"Maadi\",\n            \"price\": 200,\n            \"city\": \"CAIRO\",\n            \"district\": \"New Maadi\",\n            \"description\": \"ya mosahel\",\n            \"propertyType\": \"VILLA\",\n            \"user\": {\n                \"_id\": \"664e50adc7f35119c029422e\",\n                \"name\": \"7amada\",\n                \"phone\": \"01258858853\",\n                \"role\": \"CLIENT\",\n                \"status\": \"ACTIVE\",\n                \"createdAt\": \"2024-05-22T20:08:13.521Z\",\n                \"updatedAt\": \"2024-05-23T18:12:29.695Z\",\n                \"__v\": 0\n            },\n            \"createdAt\": \"2024-05-23T18:12:57.979Z\",\n            \"updatedAt\": \"2024-05-23T18:31:55.333Z\"\n        },\n        {\n            \"_id\": \"664f85f6f5540cacdc513458\",\n            \"area\": \"Maadi\",\n            \"price\": 100,\n            \"city\": \"CAIRO\",\n            \"district\": \"New Maadi\",\n            \"description\": \"ya mosahel\",\n            \"propertyType\": \"VILLA\",\n            \"user\": {\n                \"_id\": \"664e4d2639f528c4578bc2f5\",\n                \"name\": \"youssef\",\n                \"phone\": \"01258858805\",\n                \"role\": \"ADMIN\",\n                \"status\": \"ACTIVE\",\n                \"createdAt\": \"2024-05-22T19:53:10.246Z\",\n                \"updatedAt\": \"2024-05-22T19:53:10.246Z\",\n                \"__v\": 0\n            },\n            \"createdAt\": \"2024-05-23T18:07:50.730Z\",\n            \"updatedAt\": \"2024-05-23T18:07:50.730Z\"\n        }\n    ]\n}"
+						},
+						{
+							"name": "get All Property Copy",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjRlNTBjMmM3ZjM1MTE5YzAyOTQyMzEiLCJpYXQiOjE3MTY0ODkwNzB9.Bw2KcTSx3NIMjTSvlQolyCtYBl22ojsjhwzJP2UAHPY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/ad/getAllAd",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"ad",
+										"getAllAd"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "531"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"213-D7wme9fevhXN/zmjkSrnr5EO3jM\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 May 2024 19:02:42 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"results\": 1,\n    \"paginationResult\": {\n        \"limit\": 10,\n        \"numberOfPages\": 1,\n        \"currentPage\": 1\n    },\n    \"data\": [\n        {\n            \"_id\": \"664f908010f91bb5753814be\",\n            \"area\": \"Maadi\",\n            \"price\": 200,\n            \"city\": \"CAIRO\",\n            \"district\": \"New Maadi\",\n            \"description\": \"ya mosahel\",\n            \"propertyType\": \"VILLA\",\n            \"user\": {\n                \"_id\": \"664e50c2c7f35119c0294231\",\n                \"name\": \"7amada2\",\n                \"phone\": \"01258858856\",\n                \"role\": \"AGENT\",\n                \"status\": \"ACTIVE\",\n                \"createdAt\": \"2024-05-22T20:08:34.949Z\",\n                \"updatedAt\": \"2024-05-22T20:08:34.949Z\",\n                \"__v\": 0\n            },\n            \"createdAt\": \"2024-05-23T18:52:48.596Z\",\n            \"updatedAt\": \"2024-05-23T19:02:11.795Z\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "match Requests With Ad",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjUwNmIxOWQ1NGExMzNiZmFkMjBlN2IiLCJpYXQiOjE3MTY1NDYzMjl9.DJ6PJ6AW787B7rSrFESM_EOAV9d0MJJeOGhYKQwYu8Q",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5002/ad/matchRequestsWithAd/66506b1ad54a133bfad20e81",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"ad",
+								"matchRequestsWithAd",
+								"66506b1ad54a133bfad20e81"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "match Requests With Ad",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjUwNmIxOWQ1NGExMzNiZmFkMjBlN2IiLCJpYXQiOjE3MTY1NDYzMjl9.DJ6PJ6AW787B7rSrFESM_EOAV9d0MJJeOGhYKQwYu8Q",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5002/ad/matchRequestsWithAd/66506b1ad54a133bfad20e81",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5002",
+									"path": [
+										"ad",
+										"matchRequestsWithAd",
+										"66506b1ad54a133bfad20e81"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "85"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"55-p8V5BEad0eAXnfKI+qd+X0Hsofo\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 24 May 2024 10:37:57 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [],\n    \"page\": 1,\n    \"limit\": 10,\n    \"total\": 0,\n    \"hasNextPage\": false,\n    \"hasPreviousPage\": false\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
