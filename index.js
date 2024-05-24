@@ -14,11 +14,26 @@ const user = require("./routers/user.routes.js");
 const property = require("./routers/property.routes.js");
 const ad = require("./routers/ad.routes.js");
 
+const cron = require('node-cron');
+const Property = require('./models/property.model');
 
+// Define a function to refresh property requests
+async function refreshPropertyRequests() {
+    try {
+        await Property.updateMany({}, { refreshedAt: Date.now() });
+        console.log('Property requests refreshed successfully.');
+    } catch (error) {
+        console.error('Error refreshing property requests:', error);
+    }
+}
 const app = express();
 
 const port = process.env.PORT;
 swaggerSetup(app);
+cron.schedule('0 0 */3 * *', () => {
+  refreshPropertyRequests();
+});
+
 app.listen(port, () => {
   console.log(`Mode: ${process.env.NODE_ENV}`);
   console.log(`Server on port ${port}`);
